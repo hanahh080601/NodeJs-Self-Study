@@ -5,8 +5,8 @@ class NewController {
     }
 
     show(req, res) {
-        res.send("News Detail!");
+        res.send('News Detail!');
     }
 }
 
-module.exports = new NewController;
+module.exports = new NewController();
